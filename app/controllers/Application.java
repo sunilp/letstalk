@@ -11,4 +11,10 @@ public class Application extends Controller {
     return ok(index.render("Hello Sunil"));
   }
   
+
+  public static Result talkabout() {
+  	System.out.println("reached about  .");
+    return ok(about.render("me"));
+  }
+
 }
